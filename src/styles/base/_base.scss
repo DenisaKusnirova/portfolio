@@ -9,7 +9,7 @@ html {
 body {
   margin: 0;
   width: 100%;
-  color: $dark-grey;
+  //color: $dark-grey;
   font-family: Helvetica, Arial, sans-serif;
   font-size: $m-size;
   line-height: 1.6;
@@ -27,14 +27,40 @@ h1 {
 h3 {
   font-size: $font-size-large;
   padding: 0 0 $m-size $xl-size;
+  z-index: 44000000;
 }
 
 a {
   text-decoration: none;
   color: $pink;
   transition-duration: 600ms;
+  z-index: 44000000;
 
   &:hover {
-    opacity: .6;
+    opacity: 0.6;
+  }
+}
+
+.dark {
+  background-color: $dark-grey;
+  color: #fff;
+  transition: all 0.6s ease;
+}
+
+.light {
+  transition: all 0.6s ease;
+  background-color: #fefefe;
+}
+
+.themeSwitcher {
+  margin: $m-size;
+  border-radius: 12px;
+  padding: $xs-size $s-size;
+  border: 2px solid $pink;
+  color: $pink;
+  font-weight: bold;
+
+  &:focus {
+    outline: 0;
   }
 }

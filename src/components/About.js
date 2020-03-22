@@ -30,7 +30,7 @@ const About = () => {
           <a target="_blank" href="https://www.dovera.sk/">
             &nbsp;Dovera.&nbsp;
           </a>
-          In the past I worked on more than 20 simple personal projects that you
+          In the past I worked on many small personal projects that you
           can find on my
           <a target="_blank" href="https://github.com/DenisaKusnirova">
             &nbsp;Github.&nbsp;

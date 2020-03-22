@@ -11,8 +11,7 @@ const Dots = () => {
         backgroundSize: "cover",
         backgroundPosition: "50% 50%",
         backgroundRepeat: "no-repeat",
-        position: 'absolute',
-        zIndex: "-1",
+        position: "absolute",
       }}
       params={{
         particles: {
@@ -30,7 +29,7 @@ const Dots = () => {
             image: { src: "img/github.svg", width: 100, height: 100 },
           },
           opacity: {
-            value: 0.8,
+            value: 0.6,
             random: true,
             anim: { enable: true, speed: 1, opacity_min: 0, sync: false },
           },
