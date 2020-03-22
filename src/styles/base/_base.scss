@@ -8,6 +8,7 @@ html {
 
 body {
   margin: 0;
+  width: 100%;
   color: $dark-grey;
   font-family: Helvetica, Arial, sans-serif;
   font-size: $m-size;
@@ -18,3 +19,22 @@ button {
   cursor: pointer;
 }
 
+h1 {
+  font-size: $font-size-extra-large;
+  padding: $xxl-size 0 $xxl-size $xl-size;
+}
+
+h3 {
+  font-size: $font-size-large;
+  padding: 0 0 $m-size $xl-size;
+}
+
+a {
+  text-decoration: none;
+  color: $pink;
+  transition-duration: 600ms;
+
+  &:hover {
+    opacity: .6;
+  }
+}

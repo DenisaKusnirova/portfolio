@@ -1,13 +1,13 @@
 import React from "react"
 import Layout from "../components/Layout"
+import About from "../components/About"
 import SEO from "../components/seo"
 import "../styles/styles.scss"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to my page</p>
+    <About />
   </Layout>
 )
 
