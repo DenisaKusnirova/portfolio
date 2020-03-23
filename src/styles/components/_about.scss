@@ -1,0 +1,31 @@
+.aboutContent {
+  padding: $xxl-size $xl-size 8rem $xl-size;
+
+  h1 {
+    font-size: $font-size-extra-large;
+    padding-bottom: $xl-size;
+  }
+
+  h3 {
+    font-size: $font-size-large;
+    padding-bottom: $l-size;
+    position: relative;
+    width: 76%;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: $pink;
+  transition-duration: 600ms;
+
+  &:hover {
+    opacity: 0.6;
+  }
+}
+
+hr {
+  width: 20%;
+  float: left;
+  position: absolute;
+}

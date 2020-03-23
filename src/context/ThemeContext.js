@@ -4,10 +4,11 @@ const defaultState = {
   dark: false,
   toggleDark: () => {},
 }
+
 const ThemeContext = React.createContext(defaultState)
 
 const ThemeProvider = ({ children }) => {
-  const [dark, setDark] = React.useState(false)
+  const [dark, setDark] = React.useState(true)
 
   const toggleDark = () => {
     setDark(!dark)

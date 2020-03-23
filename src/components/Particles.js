@@ -11,7 +11,7 @@ const Dots = () => {
         backgroundSize: "cover",
         backgroundPosition: "50% 50%",
         backgroundRepeat: "no-repeat",
-        position: "absolute",
+        position: "fixed",
       }}
       params={{
         particles: {

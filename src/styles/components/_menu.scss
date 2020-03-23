@@ -1,0 +1,23 @@
+.menu {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.menuButton {
+  margin: $l-size $l-size $m-size 0;
+  padding: $xs-size $s-size;
+  color: $pink;
+  font-weight: bold;
+  background-color: transparent;
+  border: none;
+  font-size: $font-size-small;
+  transition-duration: 600ms;
+
+  &:hover {
+    opacity: 0.6;
+  }
+
+  &:focus {
+    outline: 0;
+  }
+}
