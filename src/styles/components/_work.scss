@@ -1,4 +1,23 @@
 .workContainer {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 $xl-size $xl-size $xl-size;
+
+  h2 {
+    padding-bottom: $l-size;
+  }
+}
+
+.workItems {
+  z-index: 4000;
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
+}
+
+.workItem {
+ img {
+   padding: $m-size;
+ }
 }

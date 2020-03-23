@@ -18,9 +18,9 @@ const Layout = ({ children }) => {
       <div>
         <main>{children}</main>
       </div>
-      {/*       <footer className="footer"> */}
-      {/*         <p>Built with ♡ by me.</p> */}
-      {/*       </footer> */}
+      <footer className="footer">
+        <p>Built with ♡ by me.</p>
+      </footer>
     </div>
   )
 }
