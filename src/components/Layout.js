@@ -14,10 +14,7 @@ const Layout = ({ children }) => {
 
   return (
     <div className={theme.dark ? "dark" : "light"}>
-      <Menu themeSwitcher={renderThemeSwitcher(theme)} />
-      <div>
-        <main>{children}</main>
-      </div>
+      <main>{children}</main>
       <footer className="footer">
         <p>Built with ♡ by me.</p>
       </footer>

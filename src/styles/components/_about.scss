@@ -12,6 +12,12 @@
     position: relative;
     width: 76%;
   }
+
+  hr {
+    width: 20%;
+    float: left;
+    position: absolute;
+  }
 }
 
 a {
@@ -30,8 +36,3 @@ a {
   }
 }
 
-hr {
-  width: 20%;
-  float: left;
-  position: absolute;
-}

@@ -78,10 +78,7 @@ const Work = () => {
               feedback.
             </p>
             <span>React 16.8+, Redux, Express, Mongo, Google OAuth </span>
-            <a
-              href="https://vast-sands-04605.herokuapp.com/"
-              target="_blank"
-            >
+            <a href="https://vast-sands-04605.herokuapp.com/" target="_blank">
               Click here to see it live!
             </a>
           </div>

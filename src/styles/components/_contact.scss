@@ -1,1 +1,47 @@
-.contactContainer {}
+.contactContainer {
+  padding: 0 $xl-size 8rem $xl-size;
+  position: relative;
+
+  hr {
+    width: 20%;
+    float: left;
+    position: absolute;
+  }
+
+  .contactTitle {
+    padding-top: 8rem;
+  }
+
+  a {
+    padding-left: $m-size;
+    text-decoration: underline;
+    transition-duration: 600ms;
+    cursor: pointer;
+
+    &:hover {
+      text-decoration: none;
+      opacity: 0.6;
+    }
+
+    &:focus {
+      outline: 0;
+    }
+  }
+}
+
+.socials {
+  margin-top: 10rem;
+
+  .link {
+    color: inherit;
+    font-size: $font-size-large;
+    padding: 0 $l-size 0 0;
+    text-decoration: none;
+    transition-duration: 600ms;
+    font-weight: bold;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
