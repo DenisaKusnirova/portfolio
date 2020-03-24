@@ -4,6 +4,8 @@ import DoveraEP from "../images/dovera-ep.png"
 import MojaDovera from "../images/moja-dovera.png"
 import WouldYouRather from "../images/would-you-rather.png"
 import FeedbackCollection from "../images/feedback-collection.png"
+import Twitter from "../images/twitter.png"
+import DrMaxSurvey from "../images/drmaxsurvey.png"
 
 const Work = () => {
   return (
@@ -50,6 +52,19 @@ const Work = () => {
             </a>
           </div>
         </div>
+        <div className="workItems">
+          <div className="workItem">
+            <img src={DrMaxSurvey} alt="survey.png" />
+            <div className="description">
+              <p>
+                An online survey editor which allows to create, edit, distribute
+                and analyze surveys. It provides detailed reports with charts to
+                help visualize the results. This app was developed for DrMax.
+              </p>
+              <span>React 16.8+, Redux, CSS in JS</span>
+            </div>
+          </div>
+        </div>
         <div className="workItem">
           <img src={WouldYouRather} alt="would-you-rather.png" />
           <div className="description">
@@ -60,6 +75,7 @@ const Work = () => {
               The app combines the state management features of Redux and
               component model of React.
             </p>
+            <span>React & Redux</span>
             <a
               href="https://denisakusnirova.github.io/would-you-rather-reactnd-udacity/"
               target="_blank"
@@ -69,16 +85,14 @@ const Work = () => {
           </div>
         </div>
         <div className="workItem">
-          <img src={FeedbackCollection} alt="feedback-collection.png" />
+          <img src={Twitter} alt="twitter.png" />
           <div className="description">
             <p>
-              A feedback-collection app that includes features like
-              authentication and email handling. This app can be used to send
-              mass emails to a big list of users for the purpose of collecting
-              feedback.
+              A simple twitter like app created using React and Redux. Users can
+              add new tweets, like or respond to existing ones.
             </p>
-            <span>React 16.8+, Redux, Express, Mongo, Google OAuth </span>
-            <a href="https://vast-sands-04605.herokuapp.com/" target="_blank">
+            <span>React & Redux</span>
+            <a href="https://m4l9nv4j.herokuapp.com/" target="_blank">
               Click here to see it live!
             </a>
           </div>
