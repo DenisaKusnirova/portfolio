@@ -1,4 +1,5 @@
 import React from "react"
+import scrollTo from "gatsby-plugin-smoothscroll"
 import Layout from "../components/Layout"
 import About from "../components/About"
 import Work from "../components/Work"
@@ -17,10 +18,14 @@ const IndexPage = () => {
   )
   return (
     <Layout>
-      <Menu themeSwitcher={renderThemeSwitcher(theme)} />
+      <Menu
+        themeSwitcher={renderThemeSwitcher(theme)}
+        onWorkClick={() => scrollTo("#workComponent")}
+        onContactClick={() => scrollTo("#contactComponent")}
+      />
       <About />
-      <Work />
-      <Contact />
+      <Work workComponentId="workComponent" />
+      <Contact contactComponentId="contactComponent" />
     </Layout>
   )
 }

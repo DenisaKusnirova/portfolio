@@ -7,9 +7,9 @@ import FeedbackCollection from "../images/feedback-collection.png"
 import Twitter from "../images/twitter.png"
 import DrMaxSurvey from "../images/drmaxsurvey.png"
 
-const Work = () => {
+const Work = ({ workComponentId }) => {
   return (
-    <div className="workContainer">
+    <div className="workContainer" id={workComponentId}>
       <h2>A FEW PROJECTS THAT I WORKED ON</h2>
       <div className="workItems">
         <div className="workItem">
