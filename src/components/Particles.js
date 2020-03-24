@@ -17,7 +17,7 @@ const Dots = () => {
         particles: {
           number: {
             value: 270,
-            density: { enable: true, value_area: 1025.8919341219544 },
+            density: { enable: true, value_area: 1295.8919341219544 },
           },
           color: {
             value: ["#BD10E0", "#B8E986", "#50E3C2", "#FFD300", "#E86363"],

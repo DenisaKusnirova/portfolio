@@ -1,5 +1,4 @@
 import React from "react"
-import Dots from "./Particles"
 
 const About = () => {
   return (

@@ -14,6 +14,7 @@ const Layout = ({ children }) => {
 
   return (
     <div className={theme.dark ? "dark" : "light"}>
+      <Dots />
       <main>{children}</main>
       <footer className="footer">
         <p>Built with ♡ by me.</p>

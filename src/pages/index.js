@@ -4,7 +4,6 @@ import About from "../components/About"
 import Work from "../components/Work"
 import Menu from "../components/Menu"
 import Contact from "../components/Contact"
-import Dots from "../components/Particles"
 import ThemeContext from "../context/ThemeContext"
 import "../styles/styles.scss"
 
@@ -19,7 +18,6 @@ const IndexPage = () => {
   return (
     <Layout>
       <Menu themeSwitcher={renderThemeSwitcher(theme)} />
-      <Dots />
       <About />
       <Work />
       <Contact />
