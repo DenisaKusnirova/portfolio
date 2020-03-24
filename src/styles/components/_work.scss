@@ -4,8 +4,16 @@
   align-items: center;
   padding: 0 $xl-size $l-size $xl-size;
 
+  @include sm {
+    padding: 0 $m-size $l-size $m-size;
+  }
+
   h2 {
     padding-bottom: $l-size;
+    text-align: center;
+    @include sm {
+      font-size: $font-size-medium;
+    }
   }
 }
 
@@ -27,6 +35,10 @@
     backface-visibility: hidden;
     margin: $m-size;
     border-radius: 12px;
+
+    @include sm {
+      width: 94%;
+    }
   }
 
   &:hover .description {
@@ -35,6 +47,16 @@
 
   &:hover img {
     opacity: 0.2;
+  }
+
+  @include sm {
+    &:active .description {
+      opacity: 1;
+    }
+
+    &:active img {
+      opacity: 0.2;
+    }
   }
 }
 
@@ -48,9 +70,12 @@
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
-  color: white;
   font-weight: bold;
   font-size: $font-size-medium;
+
+  @include sm {
+    font-size: $font-size-extra-small;
+  }
 
   p {
     margin-bottom: 0;
@@ -59,6 +84,11 @@
   a {
     margin-top: $s-size;
     display: block;
+
+    @include sm {
+      font-size: $font-size-extra-small;
+      margin-top: $xs-size;
+    }
   }
 
   span {
@@ -66,5 +96,10 @@
     color: $pink;
     display: block;
     font-size: $font-size-small;
+
+    @include sm {
+      font-size: $font-size-extra-small;
+      margin-top: $xs-size;
+    }
   }
 }

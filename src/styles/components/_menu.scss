@@ -4,7 +4,7 @@
 }
 
 .menuButton {
-  margin: $l-size $l-size $m-size 0;
+  margin: $l-size $s-size $m-size 0;
   padding: $xs-size $s-size;
   color: $pink;
   font-weight: bold;
@@ -12,6 +12,10 @@
   border: none;
   font-size: $font-size-small;
   transition-duration: 600ms;
+
+  @include sm {
+    margin: $l-size $xs-size $m-size 0;
+  }
 
   &:hover {
     opacity: 0.6;

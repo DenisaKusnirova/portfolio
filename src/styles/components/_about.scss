@@ -1,9 +1,19 @@
 .aboutContent {
   padding: $xxl-size $xl-size 8rem $xl-size;
 
+  @include sm {
+    padding: $xl-size $m-size 8rem $m-size
+  }
+
   h1 {
     font-size: $font-size-extra-large;
     padding-bottom: $xl-size;
+    width: 76%;
+
+    @include sm {
+      font-size: $font-size-large;
+      width: 100%;
+    }
   }
 
   h3 {
@@ -11,6 +21,11 @@
     padding-bottom: $l-size;
     position: relative;
     width: 76%;
+
+    @include sm {
+      font-size: $font-size-medium;
+      width: 100%;
+    }
   }
 
   hr {

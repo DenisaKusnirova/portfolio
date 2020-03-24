@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div className="aboutContent">
       <h1>
-        hi, my name is Deny. <br />I am a self-taught front-end developer <br />
+        hi, my name is Deny. <br />I am a self-taught front-end developer
         currently based in Slovakia.
       </h1>
       <h3>

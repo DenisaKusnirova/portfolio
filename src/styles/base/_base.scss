@@ -13,6 +13,7 @@ body {
   font-family: "Catamaran", sans-serif;
   font-size: $m-size;
   line-height: 1.6;
+  font-weight: bold;
 }
 
 button {
@@ -39,6 +40,10 @@ button {
   color: $pink;
   font-weight: bold;
   font-size: $font-size-small;
+
+  @include sm {
+    margin: $l-size $m-size $m-size $m-size;
+  }
 
   &:focus {
     outline: 0;
